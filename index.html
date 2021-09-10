@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    
+    <form class="" name="form">
+        <div>
+            <table class="table" border="1px";>
+                <tr>
+                    <td colspan="4"><input type="text" name="textView"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="button" value="C"></td>
+                    <td><input type="button" value="/" onclick="insertData('/')"></td>
+                    <td><input type="button" value="*" onclick="insertData('*')"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="1" onclick="insertData(1)"></td>
+                    <td><input type="button" value="2" onclick="insertData(2)"></td>
+                    <td><input type="button" value="3" onclick="insertData(3)"></td>
+                    <td><input type="button" value="-" onclick="insertData('-')"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="4" onclick="insertData(4)"></td>
+                    <td><input type="button" value="5" onclick="insertData(5)"></td>
+                    <td><input type="button" value="6" onclick="insertData(6)"></td>
+                    <td><input type="button" value="+" onclick="insertData('+')"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="7" onclick="insertData(7)"></td>
+                    <td><input type="button" value="8" onclick="insertData(8)"></td>
+                    <td><input type="button" value="9" onclick="insertData(9)"></td>
+                    <td rowspan="2"><input type="button" value="=" onclick=""></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="button" value="0" onclick=""></td>
+                    <td><input type="button" value="." onclick=""></td>
+                    
+                </tr>
+            </table>
+        </div>
+    </form>
+
+</body>
+</html>
