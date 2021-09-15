@@ -14,7 +14,6 @@ body
 
 table
 {
-    cursor: pointer;
     font-size: 2rem;
     border: 1px solid white;
     outline: none; /*remove the outline*/
@@ -22,8 +21,6 @@ table
 }
 
 .button{
-    width : 50;
-    height : 50;
-    font-size : 25;
+
     cursor:pointer;
 }
